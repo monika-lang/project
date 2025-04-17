@@ -1,0 +1,46 @@
+.site {
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+}
+.site .title {
+  background-color: rgb(60, 168, 60);
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  padding: 1%;
+  transform: translateY(33px);
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  background: rgb(71, 230, 169);
+  color: white;
+  padding: 1%;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  transform: translateY(10px);
+  margin-left: 1%;
+}
+
+.carousel.slide {
+  margin: 4% 0;
+}
+.carousel.slide h5, .carousel.slide p {
+  color: rgb(159, 255, 223);
+}
+.carousel.slide .carousel-inner .carousel-item img,
+.carousel.slide .carousel-inner .carousel-item.active img {
+  margin: auto;
+}
+
+.footer {
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: end;
+}
+.footer li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

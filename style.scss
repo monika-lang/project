@@ -1,0 +1,52 @@
+$page-color: rgb(71, 230, 169);
+
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+
+    .title {
+        background-color: rgb(60, 168, 60);
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        padding: 1%;
+        transform: translateY(33px);
+    }
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    background: $page-color;
+    color: white;
+    padding: 1%;
+
+    a {
+        text-decoration: none;
+        color: white;
+        transform: translateY(10px);
+        margin-left: 1%
+    }
+}
+
+.carousel.slide {
+    h5, p{
+        color:rgb(159, 255, 223)
+    }
+
+    .carousel-inner .carousel-item img,
+    .carousel-inner .carousel-item.active img {
+        margin: auto;
+    }
+    margin: 4% 0;
+}
+
+.footer {
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: end;
+
+    li {
+        list-style: none;
+    }
+}
