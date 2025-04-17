@@ -14,7 +14,6 @@ $page-color: rgb(71, 230, 169);
         border-radius: 8px 8px 0 0;
         width: 100%;
         padding: 1%;
-        transform: translateY(33px);
     }
 }
 
@@ -33,9 +32,21 @@ $page-color: rgb(71, 230, 169);
     }
 }
 
+.cards {
+    flex-grow: 1;
+    display: flex; gap:4%; margin:3% 0;
+    img {width:400px}
+}
+
+
+
 .carousel.slide {
     h5, p{
         color:rgb(159, 255, 223)
+    }
+
+    .title {
+        transform: translateY(33px);
     }
 
     .carousel-inner .carousel-item img,

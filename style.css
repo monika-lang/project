@@ -11,7 +11,6 @@
   border-radius: 8px 8px 0 0;
   width: 100%;
   padding: 1%;
-  transform: translateY(33px);
 }
 
 .logo {
@@ -28,11 +27,24 @@
   margin-left: 1%;
 }
 
+.cards {
+  flex-grow: 1;
+  display: flex;
+  gap: 4%;
+  margin: 3% 0;
+}
+.cards img {
+  width: 400px;
+}
+
 .carousel.slide {
   margin: 4% 0;
 }
 .carousel.slide h5, .carousel.slide p {
   color: rgb(159, 255, 223);
+}
+.carousel.slide .title {
+  transform: translateY(33px);
 }
 .carousel.slide .carousel-inner .carousel-item img,
 .carousel.slide .carousel-inner .carousel-item.active img {
